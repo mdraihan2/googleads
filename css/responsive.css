@@ -1,0 +1,44 @@
+/*************************************
+	Mobile Menu
+*************************************/
+@media (max-width:768px) {
+	.slicknav_menu {
+	    display:block;
+	}
+	#menu {
+		display: none;
+	}
+}
+
+/*************************************
+	991px Device
+*************************************/
+@media (max-width:991px) {
+	.main-menu ul li {
+	    margin-right: 10px;
+	}
+	.skill article {
+	    margin-bottom: 40px;
+	}
+	.client-meet-box {
+	    margin-bottom: 40px;
+	}
+	.blog-colam {
+	    margin-bottom: 40px;
+	}
+	.services .col-md-4:nth-child(3) .services-box {
+		margin-top: 50px;
+	}
+}
+
+/*************************************
+	767px Device
+*************************************/
+@media (max-width:767px) {
+	.about-img {
+	    margin-bottom: 40px;
+	}
+	.services .col-md-4:nth-child(2) .services-box {
+		margin-top: 50px;
+	}
+}
